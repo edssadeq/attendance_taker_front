@@ -13,7 +13,8 @@ include_once __DIR__."/views/partials/header.php";
 <div class="container">
     <div class="row mb-5 mt-5">
         <div class="col text-center">
-            <h2>Check Attendance</h2>
+            <h2>Control Attendance</h2>
+            <div id="alerts_div"></div>
         </div>
     </div>
     <main>
@@ -82,9 +83,8 @@ include_once __DIR__."/views/partials/header.php";
             </div>
         </div>
     </main>
-    <div id="editing_modal">
-
-    </div>
+    <div id="editing_modal"></div>
+    <div id="deleting_modal"></div>
 </div>
 
 
